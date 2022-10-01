@@ -37,15 +37,17 @@ function Home() {
           <Heading as="h1" fontSize={["30px", "40px", "60px"]}>
             A tecnologia é o
             <br />
-            <Box lineHeight="10">
+            <Box lineHeight={["4", "6", "8"]}>
               <Text
+                pt="10px"
                 as="span"
                 fontWeight="medium"
                 textDecorationLine="line-through"
-                textDecorationColor="rgba(242, 41, 78, 0.250)"
-                bgGradient="linear(to-b, #F2294E, #F2294E00)"
+                textDecorationColor="rgba(242, 41, 78, 0.450)"
+                bgGradient="linear(to-b, #F2294E, #F2294E30)"
                 bgClip="text"
                 display="inline-block"
+                fontSize={["45px", "55px", "75px"]}
               >
                 amanhã
               </Text>
